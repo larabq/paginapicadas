@@ -1,0 +1,142 @@
+<!DOCtype html>
+<html>
+<head>
+    <meta chartset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="Promos de picadas caseras artesanales">
+    <meta name="keywords"  content="picadas, gourmet, caseras, a domicilio, para regalar, completas"> 
+    <title>Picadas Gourmet</title>
+<!--Linkeo a estilos css--------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+<!--TIPOGRAFIAS------------------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body> 
+
+<!--BARRA DE NAVEGACION CON LINKS------------------------------------------------>
+<nav class="nav" id="nav">
+    <div class="logo"><a href="index.html"><img class="logo" src=media/LOGO1.png alt="logosp"></a></div>
+        <ul class="lista">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="picadas.html">Picadas</a></li>
+            <li><a href="promos.html">Promos</a></li>
+            <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+</nav>
+<!--HEADER CON INFO------------------------------------------------>
+      <header class="header" id="header">
+        <div class="logo-pica">
+          <img src="media/comenpican.jpg" alt="logopicada">
+        </div>
+        <div class="display">
+          <h1>PROMOS</h1>
+        </div>
+      </header>
+
+      <!--SECCION 1------------------------------------------------------------------------------------>
+<section>
+    <div class="titulopromos">
+      <h3>¡Personalizala a tu gusto!</h3>
+    <div class="parrafo">
+      Tenemos varias opciones para que le agregues a tu picada<br>
+      Más cantidad de fiambres, quesos, snacks y bebidas.<br>
+      Consultanos cómo queres que sea tu picada personalizada aqui. <br>
+      ¡Te contactamos a la brevedad!</p>
+    </div>
+</section>
+
+<!-- Form -->
+<section class="col style="background-color: rgb(94, 255, 0);">
+    <h2>Consulta<span class="badge bg-secondary">Nuevo!</span></h2>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Lara" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Quiroga" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Estado</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Elegir...</option>
+            <option>Buenos Aires</option>
+            <option>GBA Norte</option>
+            <option>GBA Sur</option>
+            <option>GBA Este</option>
+            <option>GBA Oeste</option>
+            <option>Capital Federal</option>
+          </select>
+          <div class="invalid-feedback">
+            Por favor seleccione un estado válido.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Código Postal</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Por favor escriba un código postal válido.
+          </div>
+        </div>
+        <div class="col-md-12"></div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Qué necesitas?</label>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Acepto a los términos y condiciones
+            </label>
+            <div class="invalid-feedback">
+              Debe aceptar antes de continuar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-danger" type="submit">Enviar consulta</button>
+        </div>
+      </form>
+</section>
+<!--FOOTER------------------------------------------------>
+    <section class= "footer" id="footer"></section>
+        <footer>     
+        <p>Copyright LQ</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>     
+
+</body>
+</html>

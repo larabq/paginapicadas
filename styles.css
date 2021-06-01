@@ -1,0 +1,543 @@
+/*RESETEOS----------------------------------------------*/
+* {
+  Margin: 0;
+  padding: 0;
+}
+
+/*ESTILOS DE BODY------------------------------------------------------------*/
+body {
+  color: lightslategrey;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120%;
+  font-family: 'Raleway', Arial, sans-serif;
+  background-color: black;
+}
+
+.body__fuente {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*ESTILOS DE BARRA DE NAVEGACION----------------------------------------------*/
+nav {
+  background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-area: nav;
+}
+
+.nav__fondonegro {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*LOGO PICADAS SP----------------------------------------------*/
+.logo img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.lista {
+  padding-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  border: hidden;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+ul ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  display: block;
+  font-size: 15px;
+}
+
+li a:hover {
+  background-color: wheat;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+/*ESTILOS DEL HEADER/
+BANNER-------------------------------------------
+/*VARIABLES*/
+/*BANNER*/
+header {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: white;
+  grid-area: header;
+}
+
+.logo-pica {
+  display: block;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.logo-pica:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*IMG LOGO*/
+.logo-pica img {
+  max-width: 60%;
+  float: right;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .logo-pica img {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logo-pica img {
+    max-width: 60%;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+}
+
+.container-fluid {
+  margin-top: 50px;
+}
+
+/*CAROUSEL*/
+.imgcaro {
+  width: 100%;
+  height: 800px;
+}
+
+.col {
+  background-color: black;
+}
+
+/*TEXTO BANNER*/
+.display {
+  text-align: center;
+  padding: 20px;
+}
+
+/*TITULO BANNER*/
+.header__parrafo {
+  color: #c4c443;
+}
+
+.display h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px lightgrey;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.display h1:hover {
+  color: brown;
+}
+
+/*BAJADA BANNER*/
+.display p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+/*SOBRE NOSOTROS*/
+.logo-picasobre {
+  display: block;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.logo-picasobre:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*IMG NEGO*/
+.logo-picasobre img {
+  max-width: 60%;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .logo-picasobre img {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-picasobre img {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.color {
+  color: white;
+}
+
+/*ESTILOS DE GALERIA------------------------------------------*/
+.galeria {
+  background-image: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  grid-area: galeria;
+}
+
+.titulogale {
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.fotos {
+  padding: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-preferred-size: 30px;
+      flex-basis: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 500px;
+  min-width: 300px;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 28px;
+  margin-left: 3px;
+}
+
+.hover:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fotoev {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+}
+
+.accordion-item {
+  background-color: white;
+  background-size: cover;
+}
+
+.accordion-body {
+  font-size: 18px;
+  font-style: normal;
+  color: black;
+  font-weight: bolder;
+}
+
+.colornegro {
+  color: black;
+  font-weight: bolder;
+}
+
+.parrafo {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+/*PROMOS*/
+.correrizq {
+  margin-right: 90%;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px lightsalmon;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title p {
+  margin-top: 20px;
+}
+
+.display h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px lightgrey;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.display h3:hover {
+  color: brown;
+}
+
+table {
+  color: white;
+  border: 2px solid;
+  font-size: 20px;
+  font-weight: bold;
+  background-position-y: center;
+}
+
+.colortitulo {
+  color: white;
+}
+
+.movertabla {
+  padding-left: 22%;
+  margin-bottom: 80px;
+}
+
+.section2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(brown));
+  background-image: linear-gradient(to bottom, black, brown);
+}
+
+.col {
+  padding-left: 30%;
+  margin-bottom: 20px;
+}
+
+.titulopromos {
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: black;
+  padding-top: 30px;
+}
+
+/*ESTILOS DE CONTACTO*/
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacto {
+  background-position: bottom center;
+}
+
+.texto {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+
+.texto1 {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-moto {
+  display: block;
+  max-width: 100%;
+  height: 250px;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.logo-moto img {
+  display: block;
+  max-width: 100%;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+@media screen and (min-width: 320px) {
+  .logo-moto {
+    max-width: 90%;
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .logo-moto {
+    max-width: 120%;
+    margin: 20px;
+  }
+}
+
+/*FOOTERCONTACTO*/
+.mapa {
+  max-width: 60%;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .mapa {
+    max-width: 90%;
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mapa {
+    max-width: 120%;
+    margin: 20px;
+  }
+}
+
+.displaycontact h3 {
+  font-size: 1.5 rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.displaycontact p {
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*CONTACTO*/
+.bl {
+  color: black;
+}
+
+.wh {
+  color: white;
+}
+
+.txt4 {
+  text-align: left;
+  font-size: 300%;
+  color: white;
+}
+
+form {
+  width: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
